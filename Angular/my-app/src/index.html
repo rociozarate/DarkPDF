@@ -18,6 +18,7 @@
     </header>
     <section>
         <div class="upload-container">
+            <app-upload-pdf></app-upload-pdf>
             <label for="fileInput" class="upload-button">Subir PDF</label>
             <input type="file" id="fileInput" (change)="onFileSelected($event)" accept="application/pdf" hidden>
         </div>
